@@ -1,16 +1,43 @@
-
 site_name: INFN School of Statistics 2026
+site_description: RooFit and RooStats exercises migrated from CERN TWiki
+repo_url: https://github.com/pellicci/INFNStat
+
 theme:
   name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
 markdown_extensions:
   - admonition
-  - pymdownx.superfences
+  - toc:
+      permalink: true
   - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
 nav:
   - Home: index.md
   - Computing Environment: setup.md
-  - Exercise 0: exercise0.md
-  - Exercise 1: exercise1.md
-  - Exercise 2: exercise2.md
-  - Exercise 3: exercise3.md
-  - Exercise 4: exercise4.md
+  - Exercise 0 — Fit spectrum: exercise0.md
+  - Exercise 1 — p-value: exercise1.md
+  - Exercise 2 — Higgs mass interval: exercise2.md
+  - Exercise 3 — Upper limits: exercise3.md
+  - Exercise 4 — Toy MC: exercise4.md
