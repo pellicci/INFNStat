@@ -36,7 +36,7 @@ extra_javascript:
 nav:
   - Home: index.md
   - Computing Environment: setup.md
-  - Exercise 0 — Fit spectrum: exercise0.md
+  - Exercise 0 — Spectrum fit: exercise0.md
   - Exercise 1 — p-value: exercise1.md
   - Exercise 2 — Higgs mass interval: exercise2.md
   - Exercise 3 — Upper limits: exercise3.md
