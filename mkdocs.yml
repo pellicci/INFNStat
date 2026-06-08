@@ -1,0 +1,16 @@
+
+site_name: INFN School of Statistics 2026
+theme:
+  name: material
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.highlight
+nav:
+  - Home: index.md
+  - Computing Environment: setup.md
+  - Exercise 0: exercise0.md
+  - Exercise 1: exercise1.md
+  - Exercise 2: exercise2.md
+  - Exercise 3: exercise3.md
+  - Exercise 4: exercise4.md
