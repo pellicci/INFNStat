@@ -1,6 +1,6 @@
 # Exercises for the INFN School of Statistics 2026
 
-The goal of these exercises is to get acquainted with few of the statistical analysis tools (mostly used in HEP). Introductory slides will present a general introduction on the main features of
+The goal of these exercises is to get acquainted with few of the statistical analysis tools mostly used in HEP. Introductory slides will present a general introduction on the main features of
 [RooFit](https://twiki.cern.ch/twiki/bin/view/Main/RooFit)
 and
 [RooStats](https://twiki.cern.ch/twiki/bin/view/Main/RooStats)
