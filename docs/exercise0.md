@@ -98,9 +98,9 @@ To compose the total PDF, we need 4 variables describing the number of events fo
 #Number of events for signal and backgrounds. The initial value is the expectation from theory+simulation
 Nh125 = ROOT.RooRealVar("Nh125","Nh125",19.15,0.0,100.)
 
-NggZZ = ROOT.RooRealVar("NggZZ","NggZZ",68.4,0.1,200.)
+NggZZ = ROOT.RooRealVar("NggZZ","NggZZ",68.4,0.1,300.)
 NqqZZ = ROOT.RooRealVar("NqqZZ","NqqZZ",317.8,0.1,500.)
-NZX   = ROOT.RooRealVar("NZX","NZX",22.9,0.1,200.)
+NZX   = ROOT.RooRealVar("NZX","NZX",22.9,0.1,300.)
 ```
 
 We can now construct the total PDF:
