@@ -171,6 +171,8 @@ The result should look similar to this:
 
 ![exercise_0.png](assets/exercise_0.png)
 
+Can you spot a possible problem with the background estimation? (Hint: compare the fit results for the number of events of each component with the expected numbers we provided).
+
 ### Variable transformation: from number of events to cross section
 
 The number of signal events is not really our parameter of interest. We are more interested in the cross section, because it's better connected with theory predictions.
