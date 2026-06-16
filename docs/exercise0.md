@@ -2,19 +2,10 @@
 
 First, you need a copy of the data
 [ROOT](https://twiki.cern.ch/twiki/bin/view/Main/ROOT)
-file containing the invariant mass spectrum and the expected signal and background shapes:
+file containing the invariant mass spectrum and the expected signal and background shapes.
 
-```bash
-wget https://twiki.cern.ch/twiki/pub/Main/INFNStatRooStats2026/h4l_Dataset_and_shapes.root
-```
-
-on
-[MacOS](https://twiki.cern.ch/twiki/bin/edit/Main/MacOS?topicparent=Main.INFNStatRooStats2026;nowysiwyg=1)
-, you may want to use
-
-```bash
-curl -o h4l_Dataset_and_shapes.root https://twiki.cern.ch/twiki/pub/Main/INFNStatRooStats2026/h4l_Dataset_and_shapes.root
-```
+You can get it from [here](https://github.com/pellicci/INFNStat/raw/refs/heads/main/docs/assets/h4l_Dataset_and_shapes.root).
+Put this file in your working directory.
 
 Let's create a skeleton for a
 [PyROOT](https://twiki.cern.ch/twiki/bin/view/Main/PyROOT)
