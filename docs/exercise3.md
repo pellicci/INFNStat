@@ -53,7 +53,7 @@ Run the fit, and you'll see that the number of events for the 145 excess is very
 You can also run the p-value macro to determine the significance of this excess. Remember to change the input
 [RooWorkspace](https://twiki.cern.ch/twiki/bin/edit/Main/RooWorkspace?topicparent=Main.INFNStatRooStats2026;nowysiwyg=1)
 , and the name of the parameter of interest to
-`Nh124`
+`Nh145`
 !
 
 ### Upper limit calculation
